@@ -1,0 +1,108 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ----- IMAGENS ----- */
+
+.imagem-1 {
+    background-image: url(/src/images/1.png);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.imagem-2 {
+    background-image: url(/src/images/2.png);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.imagem-3 {
+    background-image: url(/src/images/3.png);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.imagem-4 {
+    background-image: url(/src/images/4.png);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+/* ----- SETAS ----- */
+
+.main .seta-esquerda-habilitada {
+    margin: 70px;
+    opacity: 1;
+}
+
+.main .seta-esquerda-nao-habilitada {
+    margin: 70px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.main .seta-direita-habilitada {
+    right: 0;
+    margin: 70px;
+    position: absolute;
+}
+
+.main .seta-direita-nao-habilitada {
+    right: 0;
+    margin: 70px;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* ----- CONTAINER ----- */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 50px;
+    background-color: var(--branco);
+    position: relative;
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.container span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+/* ----- SAIBA MAIS ----- */
+
+.container .saiba-mais-1 {
+    color: var(--vermelho);
+}
+
+.container .saiba-mais-2 {
+    color: var(--amarelo);
+}
+
+.container .saiba-mais-3 {
+    color: var(--marrom);
+}
+
+.container .saiba-mais-4 {
+    color: var(--azul);
+}
